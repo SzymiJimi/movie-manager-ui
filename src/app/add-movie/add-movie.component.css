@@ -1,0 +1,9 @@
+.input-style{
+  width: 150px;
+}
+
+.accept-button{
+  width: 25%;
+  margin: auto;
+  display: block;
+}

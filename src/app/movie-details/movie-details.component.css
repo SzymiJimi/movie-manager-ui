@@ -1,0 +1,13 @@
+.film-details{
+  margin: 30px auto auto;
+  background-color: gainsboro;
+}
+
+.movie-feature{
+  display: inline-block;
+  white-space:nowrap;
+}
+
+.feature-property{
+  margin-left: 20px
+}

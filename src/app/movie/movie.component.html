@@ -1,0 +1,8 @@
+<div class="card card-position" style="width: 60rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{movie.title}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{movie.genre}}</h6>
+    <p class="card-text"> {{movie.description}}</p>
+    <a [routerLink]="['/movie', movie.id]" class="card-link">Szczegóły</a>
+  </div>
+</div>
