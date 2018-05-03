@@ -14,6 +14,7 @@ export class MoviesComponent implements OnInit {
   constructor(private http: HttpClient) {
     this.http.get<any>(environment.endpointBase +'movies').subscribe(res => {
       this.movies=res;
+      console.log(this.movies);
     })
     };
 

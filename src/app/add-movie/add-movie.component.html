@@ -7,23 +7,26 @@
   </div>
   <input type="text" class="form-control" [(ngModel)]="movie.title" aria-label="Default" aria-describedby="inputGroup-sizing-default">
 </div>
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text input-style" >Gatunek</span>
+
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text input-style" >Gatunek</span>
+    </div>
+    <input type="text" class="form-control" [(ngModel)]="movie.genre" aria-label="Default" aria-describedby="inputGroup-sizing-default">
   </div>
-  <input type="text" class="form-control" [(ngModel)]="movie.genre" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-</div>
+
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
     <span class="input-group-text input-style" >Kraj produkcji</span>
   </div>
-  <input type="text" class="form-control" [(ngModel)]="movie.production" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  <input type="text"  class="form-control" [(ngModel)]="movie.production" aria-label="Default" aria-describedby="inputGroup-sizing-default">
 </div>
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
-    <span class="input-group-text input-style" >Data produkcji</span>
+    <span class="input-group-text input-style" >Data premiery</span>
   </div>
   <input type="text" class="form-control" [(ngModel)]="movie.premiereDate"  aria-label="Default" aria-describedby="inputGroup-sizing-default">
 </div>
@@ -32,7 +35,7 @@
   <div class="input-group-prepend">
     <span class="input-group-text input-style" >Reżyseria</span>
   </div>
-  <input type="text" class="form-control" [(ngModel)]="movie.director"  aria-label="Default" aria-describedby="inputGroup-sizing-default">
+  <input type="text" class="form-control" [(ngModel)]="movie.director" aria-label="Default" aria-describedby="inputGroup-sizing-default">
 </div>
 
 <div class="input-group mb-3">
@@ -45,5 +48,7 @@
 </div>
 
 <div >
-  <button type="button" class="btn btn-primary accept-button"  (click)="addMovie()">Primary</button>
+  <button type="button" class="btn btn-primary accept-button"  (click)="addMovie()">Dodaj film</button>
 </div>
+
+
